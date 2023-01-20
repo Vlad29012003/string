@@ -1,0 +1,153 @@
+
+
+'''
+a = int ( input ( "введите ваше имя"))
+print (a)
+b = 5
+print (a+b)
+str (a)
+print (type(a))
+'''
+
+
+a = 5
+b = 3 
+
+if a > b:
+	print (a)
+elif  a < b: 
+	print (b)
+else:
+	print (a,b)
+
+
+
+print ("swimmingpool")
+age = int(input("your age"))
+if age <=5:
+	print ("your ticket 20 dollars")
+	if age == 4:
+		print ("тебе 4 не льзя")
+elif age > 5 or age <18:
+	print ("вхлд стоит 5 сом")
+elif age > 18:
+	print ("your ticket 40 dollars")
+
+'''
+a =2**3 
+b =3**2
+if a > b:
+	print ("more  a ")
+if b > a:
+	print ("correct B ") 
+'''
+'''
+print ("горы")
+age = int(input("your age"))
+if age >= 25:
+	print ( "you can go")
+elif  age > 57 and age < 100:
+	print ( "you cant go" )
+elif age  < 21:
+	print ("you must go")
+'''
+'''
+print ("условие")
+age  = int(input("who knows"))
+if  age  %2==0:
+	print ("oh sheet")
+if age %3==0:
+	print ("you got me")
+if age **2 >1000:
+	print ("damm")
+'''
+'''
+print ("weew")
+p = (input("eweew"))
+if p:
+	print ("fefefef")
+'''
+'''
+a = 10//5
+b = 10/5
+if a == b:
+	print (a+b)
+'''
+'''
+c = int(input("only negative"))
+a = -34
+b= -32
+if a < b:
+	print (a,b)
+'''
+'''
+print ("task seven")
+a = 10
+b = 5
+c = (input("whattahell"))
+if a > 0:
+	print (a,b)
+'''
+'''
+a = 10
+b = 5
+if a > b:
+	print (a + 2)
+'''
+'''
+print ("условие")
+am = int(input("введите число"))
+if am > 0:	print ("полодительное число")
+if am < 0:
+	print ("отрицательное число")
+'''
+
+'''
+print ("задание десять")
+ac = int(input("сколько тебе лет"))
+if ac >= 18:
+	print ("соверщеннолетний")
+elif  ac >= 4:
+	print ("ребенок")
+'''
+
+
+'''
+print ("задание одинадцать")
+a = 45
+b = 6
+if a / b: 
+	print ("делится")
+'''
+'''
+print (" task tvelve ")
+am = int(input("люьой год"))
+if am > 2022:
+	print ("год еше не наступил")
+if am < 2022:
+	print ("год прошел")
+elif am == 2022:
+	print ("текущий год")
+'''
+'''
+print ( "fefteen")
+a = 17391
+b= 564
+c = 934
+if a > b:
+	print (a % 17,b % 17, c % 17)
+'''
+'''
+print ("sexteen")
+x = 13 
+if x**2>172:
+	print (True)
+elif (x**2)**2 >172:
+	print (False)
+'''
+'''
+a =-10
+b = 5
+if  a and b:
+	print(bool(a>0), bool(b>0))
+'''
